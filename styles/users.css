@@ -1,0 +1,138 @@
+body {
+  background-image: url("../img/tyler-lastovich-ptmMPW2-93o-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90vw;
+  padding: 20px;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.navbar .links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 40vw;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.navbar .links a {
+  text-decoration: none;
+  color: #fafc52;
+  font-size: 18px;
+}
+
+.navbar .links a:hover {
+  color: aliceblue;
+  font-size: 20px;
+  transition: ease-in-out 100ms;
+}
+
+.navbar .navbar .logo {
+  font-family: "Rock Salt", cursive;
+  font-size: 34px;
+  color: #fafc52;
+}
+
+.navbar .logo {
+  font-family: "Rock Salt", cursive;
+  font-size: 34px;
+  color: #fafc52;
+}
+
+.navbar .logo a {
+  text-decoration: none;
+  color: #fafc52;
+}
+
+.navbar .logo {
+  font-family: "Rock Salt", cursive;
+  font-size: 34px;
+  color: #fafc52;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  background-color: black;
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content #fetchUser {
+  padding: 10px;
+  border-radius: 2px;
+  border: solid #fafc52 1px;
+  background-color: #fafc52;
+  cursor: pointer;
+}
+
+.content #userDisplay {
+  display: flex;
+  flex-direction: column;
+}
+
+.content #userDisplay .userCard {
+  display: flex;
+  flex-direction: row;
+}
+
+.userInfo {
+  background-color: black;
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container button {
+  border-radius: 3px;
+  border: 1px solid #fafc52;
+  width: 90px;
+  background-color: #fafc52;
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+  height: 40px;
+}
+
+.content .userCard {
+  font-size: 10px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: space-between;
+  margin-bottom: 5px;
+}
+
+.userInfo #userInfo{
+    color:white;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    font-size:6px !important;
+    text-align: center;
+}

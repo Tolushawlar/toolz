@@ -1,0 +1,77 @@
+body {
+    background-image: url("../img/tyler-lastovich-ptmMPW2-93o-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90vw;
+    padding: 20px;
+    align-items: center;
+    margin-left: 50px;
+  }
+  
+  .navbar .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 40vw;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  .navbar .links a {
+    text-decoration: none;
+    color: #fafc52;
+    font-size: 18px;
+  }
+  
+  .navbar .links a:hover {
+    color: aliceblue;
+    font-size: 20px;
+    transition: ease-in-out 100ms;
+  }
+  
+  .navbar .navbar .logo {
+    font-family: "Rock Salt", cursive;
+    font-size: 34px;
+    color: #fafc52;
+  }
+  
+  .navbar .logo {
+    font-family: "Rock Salt", cursive;
+    font-size: 34px;
+    color: #fafc52;
+  }
+  
+  .navbar .logo a {
+    text-decoration: none;
+    color: #fafc52;
+  }
+  
+  .navbar .logo {
+    font-family: "Rock Salt", cursive;
+    font-size: 34px;
+    color: #fafc52;
+  }
+  
+  .content {
+    background-color: black;
+    height: 600px !important;
+    width: 70vw !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+
+  .content p{
+    color: #fafc52;
+  }

@@ -1,0 +1,100 @@
+body {
+  background-image: url("../img/tyler-lastovich-ptmMPW2-93o-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90vw;
+  padding: 20px;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.navbar .links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 40vw;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.navbar .links a {
+  text-decoration: none;
+  color: #fafc52;
+  font-size: 18px;
+}
+
+.navbar .links a:hover {
+  color: aliceblue;
+  font-size: 20px;
+  transition: ease-in-out 100ms;
+}
+
+.navbar .navbar .logo {
+  font-family: "Rock Salt", cursive;
+  font-size: 34px;
+  color: #fafc52;
+}
+
+.navbar .logo {
+  font-family: "Rock Salt", cursive;
+  font-size: 34px;
+  color: #fafc52;
+}
+
+.navbar .logo a {
+  text-decoration: none;
+  color: #fafc52;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#msg {
+  color: red;
+}
+
+#addNew {
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  background-color: #fafc52;
+  padding: 8px;
+  border-radius: 5px;
+  border: solid #fafc52 1px;
+  cursor: pointer;
+  font-weight: 700;
+  width: 200px !important;
+}
+
+.todo {
+  margin-bottom: 20px;
+  background-color: #fafc52;
+  padding: 10px;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo h3 {
+  margin: 8px;
+  font-size: 12px;
+}
+
+.todo h3 span {
+  font-weight: 900;
+}
+
+#tasks {
+  margin-top: 30px;
+}

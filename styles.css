@@ -1,0 +1,176 @@
+* {
+  font-family: "Lato", sans-serif;
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+.topPart {
+  background-image: url("./img/tyler-lastovich-ptmMPW2-93o-unsplash.jpg");
+  display: flex;
+  background-size: cover;
+  height: 600px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw !important;
+  text-align: center;
+}
+
+.topPart .navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90vw;
+  padding: 10px;
+  align-items: center;
+}
+
+.topPart .links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 40vw;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.topPart .links a{
+  text-decoration: none;
+  color: #fafc52;
+  font-size: 18px;
+}
+
+.topPart .links a:hover{
+  color: aliceblue;
+  font-size: 20px;
+  transition: ease-in-out 100ms;
+}
+
+.topPart .navbar .logo {
+  font-family: "Rock Salt", cursive;
+  font-size: 34px;
+  color: #fafc52;
+}
+
+.topPart main .head {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  overflow-y: hidden !important;
+}
+
+.topPart main .head span {
+  background-color: black;
+  padding: 8px;
+  color: #fafc52;
+  border-radius: 3px;
+  height: 10px !important;
+}
+
+.topPart main .info {
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 20px;
+  color: black;
+}
+
+.topPart main button {
+  margin-top: 30px;
+  border-radius: 3px;
+  border: 1px solid #fafc52;
+  width: 90px;
+  background-color: #fafc52;
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+  height: 40px;
+}
+
+.topPart form {
+  margin-bottom: 60px;
+}
+
+.topPart form input {
+  border-radius: 3px;
+  border: 1px solid white;
+  padding: 10px;
+  margin: 10px;
+  font-weight: 700;
+}
+
+.topPart form #title {
+  width: 350px;
+}
+
+.topPart form #author {
+  width: 250px;
+}
+
+.topPart form #genre {
+  width: 150px;
+}
+
+.topPart form #pages {
+  width: 70px;
+}
+
+.topPart form button {
+  margin-top: 30px;
+  border-radius: 3px;
+  border: 1px solid #fafc52;
+  width: 90px;
+  background-color: #fafc52;
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+  height: 40px;
+}
+
+.bookList {
+  background-color: #fafc52;
+  color: black;
+  height: auto;
+  min-height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.cardContainer .book {
+  background-color: black;
+  color: #fafc52;
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+}
+
+.btn-remove{
+  background-color: #fafc52;
+  padding: 10px;
+  border: 2px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bolder;
+  margin-top: 5px;
+}
+
+.bookList .book hr{
+  width: auto;
+  height: 0.1px;
+}
+.bookList .book h3{
+  padding: 5px;
+}
+
+.bookList .book span{
+  color: white;
+}

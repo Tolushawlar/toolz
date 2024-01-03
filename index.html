@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="topPart">
+        <div class="navbar">
+            <div class="logo">Toolz</div>
+            <div class="links">
+                <div><a href="./pages/about.html">About Us</a></div>
+                <div><a href="./pages/todo.html">SpreeList</a></div>
+                <div><a href="./pages/game.html">Game</a></div>
+                <div style="text-transform:lowercase !important">
+                    <i class="fa fa-user-circle" style="margin-top: 5px; color:white;">Olusola</i>
+                </div>
+            </div>
+        </div>
+        <main>
+            <div class="head">Catalogue like a pro today, use <span>Toolz</span>
+            </div>
+            <div class="info">Sign up with the best Bookstore List Directory</div>
+            <button>About Us</button>
+        </main>
+        <form id="bookForm" onsubmit="return false">
+            <input name="book name" id="title" type="text" placeholder="Book Title">
+            <input name="book author" id="author" type="text" placeholder="Author">
+            <input name="book genre" id="genre" type="text" placeholder="Genre">
+            <input name="book pages" id="pages" type="number" placeholder="Pages">
+
+            <button type="submit" value="Add Book" ">Add Book</button>
+        </form>
+    </div>
+
+   <div class=" cardContainer bookList">
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
+
+</html>
